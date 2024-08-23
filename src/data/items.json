@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "price": 120000,
+        "imageURL": "/imgs/laptop.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Keyboard",
+        "price": 2500,
+        "imageURL": "/imgs/keyboard.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Mouse",
+        "price": 2000,
+        "imageURL": "/imgs/mouse.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Monitor",
+        "price": 40000,
+        "imageURL": "/imgs/monitor.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Mobile",
+        "price": 80000,
+        "imageURL": "/imgs/mobile.jpeg"
+    }
+]

@@ -12,12 +12,12 @@ const route = createBrowserRouter([
     errorElement: <PageNotFound/>,
     children: [
       {
-        path: "/",
-        element: <Home/>
+        path: '/',
+        element: <Store/>
       },
       {
-        path: '/store',
-        element: <Store/>
+        path: "/home",
+        element: <Home/>
       },
       {
         path: '/about',
