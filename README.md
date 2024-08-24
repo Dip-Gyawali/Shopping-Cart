@@ -8,4 +8,4 @@ ReactJs project..Small Scale E-commerce site where you can add items to cart and
 ![App Screenshot](screenshot4.png)
 
 ## Visit the website :
-[E-Commerce](https://66ca0d499d776717ecca9881--dulcet-halva-8d2795.netlify.app/)
+[E-Commerce](https://dulcet-halva-8d2795.netlify.app/)
