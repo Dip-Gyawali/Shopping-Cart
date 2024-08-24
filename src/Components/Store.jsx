@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import items from '../data/items.json'
 import AllItems from './AllItems'
 

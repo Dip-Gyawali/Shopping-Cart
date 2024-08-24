@@ -4,6 +4,8 @@ import Navbar from "./Components/Navbar";
 import Store from "./Components/Store";
 import About from "./Components/About";
 import PageNotFound from "./Components/PageNotFound";
+import Cart from "./Components/Cart";
+import CartContext from "./Context/cartContext";
 
 const route = createBrowserRouter([
   {
@@ -22,12 +24,18 @@ const route = createBrowserRouter([
       {
         path: '/about',
         element: <About/>
+      },
+      {
+        path: '/cart',
+        element: <Cart/>
       }
     ]
   }
 ])
 export default function App(){
   return(
-    <RouterProvider router={route}/>
+    <CartContext>
+      <RouterProvider router={route}/>
+    </CartContext>
   );
 }

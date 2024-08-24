@@ -28,5 +28,35 @@
         "name": "Mobile",
         "price": 80000,
         "imageURL": "/imgs/mobile.jpeg"
+    },
+    {
+       "id": 6,
+        "name": "Camera",
+        "price": 70000,
+        "imageURL": "/imgs/camera.jpeg" 
+    },
+    {
+        "id": 7,
+        "name": "Television",
+        "price": 90000,
+        "imageURL": "/imgs/television.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Microphone",
+        "price": 20000,
+        "imageURL": "/imgs/microphone.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Joystick",
+        "price": 2000,
+        "imageURL": "/imgs/joystick.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Headphone",
+        "price": 4000,
+        "imageURL": "/imgs/headphone.jpeg"
     }
 ]
