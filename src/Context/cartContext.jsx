@@ -21,10 +21,19 @@ export default function cartContext({children}) {
   function removeFromCart(id) {
     setCount(prevCount => ({ ...prevCount, [id]: prevCount[id] - 1, }))
   }
-
-  console.log(count);
+ 
+  function getTotal(){
+    let totalAmount =0;
+    items.forEach((ele)=>{
+      if(count[ele.id]>0){
+        totalAmount+= count[ele.id] * ele.price;
+      }
+      console.log(totalAmount);
+    })
+    return totalAmount;
+  }
   return (
-    <shopContext.Provider value={{ count, addToCart, removeFromCart }}>
+    <shopContext.Provider value={{ count, addToCart, removeFromCart, getTotal}}>
       {children}
     </shopContext.Provider>
   );
