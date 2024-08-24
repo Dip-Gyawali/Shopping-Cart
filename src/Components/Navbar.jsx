@@ -7,10 +7,10 @@ export default function Navbar() {
         <div className='flex items-center justify-between bg-slate-600 p-5'>
             <h1 className='text-4xl flex items-center justify-center'>Logo</h1>
             <ul className='flex items-center justify-evenly gap-14 text-2xl font-bold cursor-pointer'>
-                <NavLink to="/home" style={({isActive})=>{
+                <NavLink to="/" style={({isActive})=>{
                     return {color:isActive?"orange":"black"}
                 }}>Home</NavLink>
-                <NavLink to="/" style={({isActive})=>{
+                <NavLink to="/store" style={({isActive})=>{
                     return {color:isActive?"orange":"black"}
                 }} >Store</NavLink>
                 <NavLink to="/about" style={({isActive})=>{
